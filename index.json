@@ -7,7 +7,7 @@
     "sources": [
         {
             "name": "BambuCo",
-            "api": "http://boa.nuestroscursos.net/api/",
+            "api": "https://boa.nuestroscursos.net/api/",
             "version": 1.1,
             "catalogs": [
                 {
@@ -51,6 +51,25 @@
                 {
                     "key": "cleo",
                     "title": "CLEO",
+                    "access": "public",
+                    "available": true
+                }
+            ]
+        },
+        {
+            "name": "Universidad de Medellín",
+            "api": "https://boa.udem.edu.co/api/",
+            "version": 1.1,
+            "catalogs": [
+                {
+                    "key": "general",
+                    "title": "Banco de objetos abiertos - UdeMedellín",
+                    "access": "public",
+                    "available": true
+                },
+                {
+                    "key": "demuestra",
+                    "title": "DeMuestra - Facultad de Comunicación",
                     "access": "public",
                     "available": true
                 }
